@@ -12,7 +12,7 @@ public class Main {
         manager.passedStudents();
         manager.failedStudents();
 
-        manager.addStudent(new Student(111, "Sam", 24, 75));
+        manager.addStudent(new Student(111, "Sam", 23, 70));
         manager.updateScore(105, 95);
 
         manager.saveToFile("students.txt");
